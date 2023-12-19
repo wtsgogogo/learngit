@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package schemaVersion="1.3" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="PACK.xsd">
+    <vendor>Sgchip.sccc9xx</vendor>
+    <name>DFP</name>
+    <description>ECxxxx Series Device Support, Drivers and Examples</description>
+    <url></url>
+    <supportContact></supportContact>
+
+    <releases>
+        <release version="1.0.0" date="2022-12-28">
+        First Release version.
+        </release>
+    </releases>
+
+    <keywords>        
+        <keyword>Device Support</keyword>
+        <keyword>sccc9xx</keyword>
+    </keywords>
+
+    <devices>
+        <family Dfamily="sccc9xx Series" Dvendor="Sgchip:175">
+            <processor Dcore="Cortex-M4"  DcoreVersion="r0p1" Dfpu="1" Dmpu="1" Dendian="Configurable" Dclock="10000000" />            
+            <description>ARM Cortex M4F operating at up to 136MHz frequency.
+            </description>
+            
+            <!-- *************************  Device 'ECxxxx'  ***************************** -->	
+            <device Dname="sccc9xx">
+                <debug svd="SVD\sccc9xx.svd"/>
+                <processor Dcore="Cortex-M4" DcoreVersion="r0p1" Dfpu="1" Dmpu="1" Dendian="Configurable" Dclock="10000000"/>
+                <memory id="IROM1" start="0x00000000" size="0x00040000" startup="1" default="1"/>
+                <memory id="IRAM1" start="0x20001000" size="0x00002000" init="0" default="1"/>                
+                <algorithm name="Flash/Sgchip_flash_algo.flm" start="0x00800000" size="0x00100000" default="1"/>
+                <compile   header="Device/ARM/ARMCM4/Include/ARMCM4.h"    define="sccc9xx"/>				
+            </device>
+            
+			
+        </family>
+    </devices>
+
+</package>

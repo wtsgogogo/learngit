@@ -1,0 +1,87 @@
+#ifndef DMAC_CONFIG_H_
+#define DMAC_CONFIG_H_
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+#define DMAC1_MAX_CHANNEL_NUM 8
+
+typedef enum
+{
+    CH_I2C1_RX = 0,
+    CH_I2C1_TX = 1,
+    CH_I2C2_RX = 2,
+    CH_I2C2_TX = 3,
+    CH_I2C3_RX = 4,
+    CH_I2C3_TX = 5,
+    CH_UART1_RX = 6,
+    CH_UART1_TX = 7,
+    CH_UART2_RX = 8,
+    CH_UART2_TX = 9,
+    CH_UART3_RX = 10,
+    CH_UART3_TX = 11,
+    CH_UART4_RX = 12,
+    CH_UART4_TX = 13,
+    CH_UART5_RX = 14,
+    CH_ADC2 = 15,
+    CH_SPI1_RX = 16,
+    CH_SPI1_TX = 17,
+    CH_SPI2_RX = 18,
+    CH_SPI2_TX = 19,
+    CH_SPI3_RX = 20,
+    CH_SPI3_TX = 21,
+    CH_ADC1 = 22,
+    CH_PDMCH0_RX = 23,
+    CH_PDMCH1_RX = 24,
+    CH_DAC_CH1 = 25,
+    CH_DAC_CH2 = 26,
+    CH_QSPI_TX = 27,
+    CH_QSPI_RX = 28,
+    CH_CRYPT_WR = 29,
+    CH_CRYPT_RD = 30,
+    CH_ECC = 31,
+		
+    CH_GPTIMA1_CH0 = 32,
+    CH_GPTIMA1_CH1 = 33,
+    CH_GPTIMA1_CH2 = 34,
+    CH_GPTIMA1_CH3 = 35,
+    CH_GPTIMA1_CH4 = 36,
+    CH_GPTIMA1_CH5 = 37,
+		
+    CH_GPTIMB1_CH0 = 38,
+    CH_GPTIMB1_CH1 = 39,
+    CH_GPTIMB1_CH2 = 40,
+    CH_GPTIMB1_CH3 = 41,
+    CH_GPTIMB1_CH4 = 42,
+    CH_GPTIMB1_CH5 = 43,
+		
+    CH_GPTIMC1_CH0 = 44,
+    CH_GPTIMC1_CH1 = 45,
+    CH_GPTIMC1_CH2 = 46,
+    CH_GPTIMC1_CH3 = 47,
+    CH_GPTIMC1_CH4 = 48,
+		
+    CH_BSTIM1 = 49,
+    CH_ADTIM1_CH0 = 50,
+    CH_ADTIM1_CH1 = 51,
+    CH_ADTIM1_CH2 = 52,
+    CH_ADTIM1_CH3 = 53,
+    CH_ADTIM1_CH4 = 54,
+    CH_ADTIM1_CH5 = 55,
+    CH_ADTIM1_CH6 = 56,
+		
+    CH_ADTIM2_CH0 = 57,
+    CH_ADTIM2_CH1 = 58,
+    CH_ADTIM2_CH2 = 59,
+    CH_ADTIM2_CH3 = 60,
+    CH_ADTIM2_CH4 = 61,
+    CH_ADTIM2_CH5 = 62,
+    CH_ADTIM2_CH6 = 63,
+} DMA_ChnSig_TypeDef;
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif

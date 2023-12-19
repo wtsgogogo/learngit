@@ -1,0 +1,64 @@
+T21F4 000:005.044   SEGGER J-Link V7.50 Log File
+T21F4 000:005.134   DLL Compiled: Jul  1 2021 17:37:28
+T21F4 000:005.139   Logging started @ 2023-07-20 06:57
+T21F4 000:005.144 - 5.146ms
+T21F4 000:005.175 JLINK_SetWarnOutHandler(...)
+T21F4 000:005.181 - 0.021ms
+T21F4 000:005.199 JLINK_OpenEx(...)
+T21F4 000:007.227   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T21F4 000:007.845   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T21F4 000:008.047   Decompressing FW timestamp took 175 us
+T21F4 000:016.440   Hardware: V9.40
+T21F4 000:016.463   S/N: 59409720
+T21F4 000:016.471   OEM: SEGGER
+T21F4 000:016.478   Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+T21F4 000:018.636   TELNET listener socket opened on port 19021
+T21F4 000:019.067   WEBSRV Starting webserver
+T21F4 000:019.229   WEBSRV Webserver running on local port 19080
+T21F4 000:019.239 - 14.041ms returns "O.K."
+T21F4 000:019.257 JLINK_GetEmuCaps()
+T21F4 000:019.262 - 0.007ms returns 0xB9FF7BBF
+T21F4 000:019.269 JLINK_TIF_GetAvailable(...)
+T21F4 000:019.737 - 0.476ms
+T21F4 000:019.752 JLINK_SetErrorOutHandler(...)
+T21F4 000:019.757 - 0.007ms
+T21F4 000:019.819 JLINK_ExecCommand("ProjectFile = "D:\m0m4_sdk\ls\sccc9xx_sdk_0.75.3\examples\sccc9xx\spi_i2s\spi_polling_slave\MDK\uvision5\JLinkSettings.ini"", ...). 
+T21F4 000:029.471   Ref file found at: C:\Keil_v5\ARM\Segger\JLinkDevices.ref
+T21F4 000:029.551   XML referenced by ref file: d:\Program Files\SEGGER\JLink\JLinkDevices.xml
+T21F4 000:029.620   XML file found at: C:\Keil_v5\ARM\Segger\JLinkDevices.xml
+T21F4 000:029.627   Ignoring XML in DLL dir and using ref file instead.
+T21F4 000:029.698   d:\Program Files\SEGGER\JLink\JLinkDevices.xml evaluated successfully.
+T21F4 000:034.242   Device "ECXXXX" selected.
+T21F4 000:034.766 - 14.952ms returns 0x00
+T21F4 000:036.376 JLINK_ExecCommand("Device = sccc9xx", ...). 
+T21F4 000:040.857   Device "ECXXXX" selected.
+T21F4 000:041.450 - 5.067ms returns 0x00
+T21F4 000:041.484 JLINK_GetHardwareVersion()
+T21F4 000:041.489 - 0.008ms returns 94000
+T21F4 000:041.496 JLINK_GetDLLVersion()
+T21F4 000:041.521 - 0.027ms returns 75000
+T21F4 000:041.526 JLINK_GetOEMString(...)
+T21F4 000:041.533 JLINK_GetFirmwareString(...)
+T21F4 000:041.538 - 0.007ms
+T21F4 000:047.146 JLINK_GetDLLVersion()
+T21F4 000:047.159 - 0.015ms returns 75000
+T21F4 000:047.165 JLINK_GetCompileDateTime()
+T21F4 000:047.170 - 0.007ms
+T21F4 000:048.695 JLINK_GetFirmwareString(...)
+T21F4 000:048.705 - 0.012ms
+T21F4 000:050.260 JLINK_GetHardwareVersion()
+T21F4 000:050.272 - 0.014ms returns 94000
+T21F4 000:051.811 JLINK_GetSN()
+T21F4 000:051.823 - 0.013ms returns 59409720
+T21F4 000:053.347 JLINK_GetOEMString(...)
+T21F4 000:058.236 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T21F4 000:059.958 - 1.729ms returns 0x00
+T21F4 000:059.971 JLINK_HasError()
+T21F4 000:059.990 JLINK_SetSpeed(5000)
+T21F4 000:060.367 - 0.383ms
+T21F4 000:060.379 JLINK_GetId()
+T21F4 000:884.577 - 824.217ms returns 0x00000000
+T21F4 002:188.190 JLINK_Close()
+T21F4 002:210.680 - 22.506ms
+T21F4 002:210.700   
+T21F4 002:210.705   Closed
