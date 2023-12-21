@@ -1,5 +1,0 @@
-使用KEIL，开发Sgchip MCU
-
-1、版本：1.0.0.0
-2、Sgchip.sccc9xx.DFP.1.0.0.pack，适用于 Keil MDK集成开发环境，安装此Sgchip.sccc9xx.DFP之前，需要先安装Keil MDK；
-

@@ -1,1490 +1,0 @@
-Dependencies for Project 'spi_it_slave', Target 'spi_it_slave': (DO NOT MODIFY !)
-CompilerVersion: 6190000::V6.19::ARMCLANG
-F (..\..\app_config.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\arm_common_tables.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\arm_const_structs.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\arm_math.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\module\common\async_call.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\cachel1_armv7.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\hal_driver\api\calc_div.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\module\common\circular_doubly_linked_list.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armcc.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang_ltm.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_gcc.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_iccarm.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\module\common\co_error.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\module\common\co_list.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\module\common\co_math.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\module\common\common.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\soc\compile_flag.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\core_armv81mml.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\core_armv8mbl.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\core_armv8mml.h)(0x64AD41B2)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm0.h)(0x64AD41B2)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm0plus.h)(0x64AD41B2)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm1.h)(0x64AD41B2)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm23.h)(0x64AD41B2)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm3.h)(0x64AD41B2)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm33.h)(0x64AD41B2)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm35p.h)(0x64AD41B2)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm55.h)(0x64AD41B2)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm7.h)(0x64AD41B2)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\core_sc000.h)(0x64AD41B2)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\core_sc300.h)(0x64AD41B2)()
-F (..\..\..\..\..\..\soc\cpu.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\dmac_config.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\hal_driver\api\hal_adc.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\hal_adcv2.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\hal_cache.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\hal_can.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\hal_comp.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\hal_crc.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\hal_crypt.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\hal_dac.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\hal_dmac.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\hal_dmacv2.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\hal_ecc.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\hal_flash.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\inc\hal_flash_int.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\hal_i2c.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\hal_iwdg.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\hal_iwdgv2.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\hal_patch.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\hal_pdm.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\hal_pis.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\inc\hal_qspi.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\inc\hal_qspiv2.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\hal_rtc.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\hal_rtcv2.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\hal_sha.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\hal_sm4.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\hal_spi_i2s.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\hal_ssi.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\hal_timer.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\hal_touchkey.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\hal_trng.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\hal_uart.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\hal_wwdg.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\inc\i2c_misc.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\soc\arm_cm\instructions.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\module\common\linked_async_framework.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\hal_driver\api\ll_i2c.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\ll_opamp.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\ll_spi.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\ll_ssi.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\ll_timer.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\api\ll_uart.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\module\debug\log.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv8.h)(0x64AD41B2)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_adc.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_cache.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_can.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_comp.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_crc.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_crypt.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_dac.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_dmacv2.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_ecc.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_i2c.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_iwdg.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_pdm.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_pis.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_qspiv2.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_rtc.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_sha.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_sm4.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_spi_i2s.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_ssi.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_timer.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_touchkey.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_trngv2.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_uart.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_usb.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_wwdg.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\hal_driver\inc\musb_type.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\per_func_mux.h)(0x64AD41B2)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\pis_config.h)(0x64AD41B2)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\pmu_armv8.h)(0x64AD41B2)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\portmacro.h)(0x64AD41B2)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\qspiv2_config.h)(0x64AD41B2)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_adc_type.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_adcv2_type.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_cache_type.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_calc_crc_type.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_calc_type.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_can_type.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_comp_type.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_crypt_type.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_dac_type.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_dmac_type.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_dmacv2_type.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_ecc_type.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_exti_type.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_i2c_type.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_iwdg_type.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_iwdgv2_type.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_lcd_type.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_lstim_type.h)(0x64AD41B2)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_patch_type.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_pdm_type.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_pis_type.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_qspi_type.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_qspiv2_type.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_rtc_type.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_rtcv2_type.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_sha_type.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_sm4_type.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_spi_type.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_ssi_type.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_cpu_type.h)(0x64AD41B2)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_per_type.h)(0x64AD41B2)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_timer_type.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_touchkey_type.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_trng_type.h)(0x64AD41B3)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_trngv2_type.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_uart_type.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_usb_type.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_v33_rg_type.h)(0x64AD41B2)()
-F (..\..\..\..\..\..\hal_driver\inc\reg_wwdg_type.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)()
-F (..\..\..\..\..\..\module\debug\RTT\SEGGER_RTT.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\module\debug\RTT\SEGGER_RTT_Conf.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sleep.h)(0x64AD41B2)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\soc_gpio.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\soc_pinmux.h)(0x64AD41B4)()
-F (..\..\..\..\..\..\hal_driver\inc\ssi_misc.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\module\common\sw_timer.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\module\common\sw_timer_int.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sw_timer_port.h)(0x64AD41B2)()
-F (..\..\..\..\..\..\soc\arm_cm\swint_call_asm.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sys_stat.h)(0x64AD41B2)()
-F (..\..\..\..\..\..\soc\systick.h)(0x64AD41B1)()
-F (..\..\..\..\..\..\soc\arm_cm\cmsis\tz_context.h)(0x64AD41B2)()
-F (..\..\main.c)(0x64AD422C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/main.o -MD)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\module\debug\log.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\..\..\..\..\..\soc\cpu.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
-I (..\..\..\..\..\..\module\common\co_math.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\soc_gpio.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\soc_pinmux.h)(0x64AD41B4)
-I (..\..\..\..\..\..\module\debug\RTT\SEGGER_RTT.h)(0x64AD41B1)
-I (..\..\..\..\..\..\module\debug\RTT\SEGGER_RTT_Conf.h)(0x64AD41B1)
-I (..\..\..\..\..\..\hal_driver\api\hal_spi_i2s.h)(0x64AD41B3)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_spi_i2s.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_spi_type.h)(0x64AD41B1)
-F (..\..\..\..\..\..\hal_driver\src\hal_adcv2.c)(0x64AD41B3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_adcv2.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\hal_adcv2.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_adc.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_adcv2_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\systick.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (..\..\..\..\..\..\module\debug\log.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-F (..\..\..\..\..\..\hal_driver\src\hal_adcv2_dma.c)(0x64AD41B3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_adcv2_dma.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\hal_adcv2.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_adc.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_adcv2_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\hal_dmacv2.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_dmacv2.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_dmacv2_type.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\module\debug\log.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-F (..\..\..\..\..\..\hal_driver\src\hal_cache.c)(0x64AD41B3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_cache.o -MD)
-I (..\..\..\..\..\..\hal_driver\api\hal_cache.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_cache.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_cache_type.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\compile_flag.h)(0x64AD41B4)
-F (..\..\..\..\..\..\hal_driver\src\hal_can.c)(0x64AD41B3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_can.o -MD)
-I (..\..\..\..\..\..\hal_driver\api\hal_can.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_can.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_can_type.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\systick.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\..\..\..\..\..\module\debug\log.h)(0x64AD41B4)
-F (..\..\..\..\..\..\hal_driver\src\hal_comp.c)(0x64AD41B3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_comp.o -MD)
-I (..\..\..\..\..\..\hal_driver\api\hal_comp.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_comp.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_comp_type.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_v33_rg_type.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-F (..\..\..\..\..\..\hal_driver\src\hal_crc.c)(0x64AD41B3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_crc.o -MD)
-I (..\..\..\..\..\..\hal_driver\api\hal_crc.h)(0x64AD41B3)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_crc.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_calc_crc_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\compile_flag.h)(0x64AD41B4)
-F (..\..\..\..\..\..\hal_driver\src\hal_crypt.c)(0x64AD41B3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_crypt.o -MD)
-I (..\..\..\..\..\..\hal_driver\api\hal_crypt.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_crypt.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_crypt_type.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
-F (..\..\..\..\..\..\hal_driver\src\hal_dac.c)(0x64AD41B3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_dac.o -MD)
-I (..\..\..\..\..\..\hal_driver\api\hal_dac.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_dac.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_dac_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\hal_dmacv2.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_dmacv2.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_dmacv2_type.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\systick.h)(0x64AD41B1)
-F (..\..\..\..\..\..\hal_driver\src\hal_dac_dma.c)(0x64AD41B3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_dac_dma.o -MD)
-I (..\..\..\..\..\..\hal_driver\api\hal_dac.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_dac.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_dac_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\hal_dmacv2.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_dmacv2.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_dmacv2_type.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-F (..\..\..\..\..\..\hal_driver\src\hal_dmacv2.c)(0x64AD41B3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_dmacv2.o -MD)
-I (..\..\..\..\..\..\hal_driver\api\hal_dmacv2.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_dmacv2.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_dmacv2_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-F (..\..\..\..\..\..\hal_driver\src\hal_ecc.c)(0x64AD41B3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_ecc.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\hal_ecc.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_ecc.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_ecc_type.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\module\common\common.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-F (..\..\..\..\..\..\hal_driver\src\hal_flash.c)(0x64AD41B1)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_flash.o -MD)
-I (..\..\..\..\..\..\hal_driver\inc\hal_flash_int.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\api\hal_flash.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\cpu.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\compile_flag.h)(0x64AD41B4)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\systick.h)(0x64AD41B1)
-F (..\..\..\..\..\..\hal_driver\src\hal_flash_qspiv2.c)(0x64AD41B3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_flash_qspiv2.o -MD)
-I (..\..\..\..\..\..\hal_driver\inc\hal_flash_int.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\api\hal_flash.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\cpu.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\compile_flag.h)(0x64AD41B4)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\hal_driver\inc\hal_qspiv2.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_qspiv2.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\qspiv2_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\inc\reg_qspiv2_type.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-F (..\..\..\..\..\..\hal_driver\src\hal_flash_swint.c)(0x64AD41B1)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_flash_swint.o -MD)
-I (..\..\..\..\..\..\hal_driver\inc\hal_flash_int.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\api\hal_flash.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\cpu.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\compile_flag.h)(0x64AD41B4)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\swint_call_asm.h)(0x64AD41B1)
-F (..\..\..\..\..\..\hal_driver\src\hal_i2c.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_i2c.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\hal_i2c.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\ll_i2c.h)(0x64AD41B3)
-I (..\..\..\..\..\..\hal_driver\inc\reg_i2c_type.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\inc\i2c_misc.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_i2c.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\module\debug\log.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\..\..\..\..\..\soc\systick.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\cpu.h)(0x64AD41B4)
-F (..\..\..\..\..\..\hal_driver\src\hal_i2c_dma.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_i2c_dma.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\hal_driver\api\hal_i2c.h)(0x64AD41B3)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\hal_driver\api\ll_i2c.h)(0x64AD41B3)
-I (..\..\..\..\..\..\hal_driver\inc\reg_i2c_type.h)(0x64AD41B1)
-I (..\..\..\..\..\..\hal_driver\inc\i2c_misc.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_i2c.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\module\debug\log.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\api\hal_dmacv2.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_dmacv2.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_dmacv2_type.h)(0x64AD41B1)
-F (..\..\..\..\..\..\hal_driver\src\hal_iwdgv2.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_iwdgv2.o -MD)
-I (..\..\..\..\..\..\hal_driver\api\hal_iwdgv2.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_iwdg.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_iwdgv2_type.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\cpu.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-F (..\..\..\..\..\..\hal_driver\src\hal_pdm.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_pdm.o -MD)
-I (..\..\..\..\..\..\hal_driver\api\hal_pdm.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_pdm.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_pdm_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\module\common\common.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-F (..\..\..\..\..\..\hal_driver\src\hal_pis.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_pis.o -MD)
-I (..\..\..\..\..\..\hal_driver\api\hal_pis.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_pis.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_pis_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\pis_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-F (..\..\..\..\..\..\hal_driver\src\hal_qspiv2.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_qspiv2.o -MD)
-I (..\..\..\..\..\..\hal_driver\inc\hal_qspiv2.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_qspiv2.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\qspiv2_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\inc\reg_qspiv2_type.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\compile_flag.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\hal_driver\inc\hal_flash_int.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\api\hal_flash.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\cpu.h)(0x64AD41B4)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-F (..\..\..\..\..\..\hal_driver\src\hal_rtcv2.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_rtcv2.o -MD)
-I (..\..\..\..\..\..\hal_driver\api\hal_rtcv2.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_rtc.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_rtcv2_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-F (..\..\..\..\..\..\hal_driver\src\hal_sha.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_sha.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\hal_sha.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_sha.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_sha_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\compile_flag.h)(0x64AD41B4)
-F (..\..\..\..\..\..\hal_driver\src\hal_sm4.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_sm4.o -MD)
-I (..\..\..\..\..\..\hal_driver\api\hal_sm4.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_sm4.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_sm4_type.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\module\debug\log.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-F (..\..\..\..\..\..\hal_driver\src\hal_spi_i2s.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_spi_i2s.o -MD)
-I (..\..\..\..\..\..\hal_driver\api\hal_spi_i2s.h)(0x64AD41B3)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_spi_i2s.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_spi_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\module\debug\log.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\..\..\..\..\..\soc\systick.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (..\..\..\..\..\..\module\common\common.h)(0x64AD41B1)
-F (..\..\..\..\..\..\hal_driver\src\hal_spi_i2s_dma.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_spi_i2s_dma.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\hal_spi_i2s.h)(0x64AD41B3)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_spi_i2s.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_spi_type.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\api\hal_dmacv2.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_dmacv2.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_dmacv2_type.h)(0x64AD41B1)
-F (..\..\..\..\..\..\hal_driver\src\hal_ssi.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_ssi.o -MD)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_ssi.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_ssi_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\module\debug\log.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\api\hal_ssi.h)(0x64AD41B3)
-I (..\..\..\..\..\..\hal_driver\api\ll_ssi.h)(0x64AD41B3)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\hal_driver\inc\ssi_misc.h)(0x64AD41B1)
-F (..\..\..\..\..\..\hal_driver\src\hal_ssi_dma.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_ssi_dma.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_ssi.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_ssi_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\ssi_misc.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\hal_driver\api\hal_ssi.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\ll_ssi.h)(0x64AD41B3)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\hal_driver\api\hal_dmacv2.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_dmacv2.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_dmacv2_type.h)(0x64AD41B1)
-F (..\..\..\..\..\..\hal_driver\src\hal_timer.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_timer.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\hal_timer.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_timer.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_timer_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-F (..\..\..\..\..\..\hal_driver\src\hal_touchkey.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_touchkey.o -MD)
-I (..\..\..\..\..\..\hal_driver\api\hal_touchkey.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_touchkey.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_touchkey_type.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\module\common\co_math.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\module\debug\log.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-F (..\..\..\..\..\..\hal_driver\src\hal_trngv2.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_trngv2.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\hal_trng.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_trngv2.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_trngv2_type.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-F (..\..\..\..\..\..\hal_driver\src\hal_uart.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_uart.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\hal_uart.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\api\ll_uart.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_uart.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_uart_type.h)(0x64AD41B1)
-I (..\..\..\..\..\..\module\debug\log.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\..\..\..\..\..\soc\systick.h)(0x64AD41B1)
-F (..\..\..\..\..\..\hal_driver\src\hal_uart_dma.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_uart_dma.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\api\hal_uart.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\hal_driver\api\ll_uart.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_uart.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_uart_type.h)(0x64AD41B1)
-I (..\..\..\..\..\..\hal_driver\api\hal_dmacv2.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_dmacv2.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_dmacv2_type.h)(0x64AD41B1)
-F (..\..\..\..\..\..\hal_driver\src\hal_wwdg.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/hal_wwdg.o -MD)
-I (..\..\..\..\..\..\hal_driver\api\hal_wwdg.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_wwdg.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_wwdg_type.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-F (..\..\..\..\..\..\module\common\circular_doubly_linked_list.c)(0x64AD41B1)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/circular_doubly_linked_list.o -MD)
-I (..\..\..\..\..\..\module\common\circular_doubly_linked_list.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\soc\compile_flag.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-F (..\..\..\..\..\..\module\common\common.c)(0x64AD41B1)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/common.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
-I (..\..\..\..\..\..\module\common\common.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\..\..\..\..\..\soc\compile_flag.h)(0x64AD41B4)
-I (..\..\..\..\..\..\module\common\co_math.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-F (..\..\..\..\..\..\module\debug\dbg.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/dbg.o -MD)
-I (..\..\..\..\..\..\soc\cpu.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\module\debug\log.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\..\..\..\..\..\soc\compile_flag.h)(0x64AD41B4)
-F (..\..\..\..\..\..\module\debug\log.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/log.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
-I (..\..\..\..\..\..\module\debug\log.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\..\..\..\..\..\module\debug\RTT\SEGGER_RTT.h)(0x64AD41B1)
-I (..\..\..\..\..\..\module\debug\RTT\SEGGER_RTT_Conf.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\hal_uart.h)(0x64AD41B3)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\api\ll_uart.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_uart.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_uart_type.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\soc_gpio.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\soc_pinmux.h)(0x64AD41B4)
-F (..\..\..\..\..\..\module\debug\RTT\SEGGER_RTT.c)(0x64AD41B1)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/segger_rtt.o -MD)
-I (..\..\..\..\..\..\module\debug\RTT\SEGGER_RTT.h)(0x64AD41B1)
-I (..\..\..\..\..\..\module\debug\RTT\SEGGER_RTT_Conf.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\__info_array.c)(0x64AD41B2)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/__info_array.o -MD)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\cpu.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/cpu.o -MD)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\cpu.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\soc\compile_flag.h)(0x64AD41B4)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\compiler\armcc\delay_asm.S)(0x64AD41B2)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-mlittle-endian -gdwarf-4 -D__MICROLIB -DSCCC9XX-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION=538 -Dsccc9xx-o ./uvbuild/delay_asm.o)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_adc.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/msp_adc.o -MD)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_adc.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_adcv2_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\hal_adcv2.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\dmac_config.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_dmacv2.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_dmacv2_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sys_stat.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_per_type.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_v33_rg_type.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\api\hal_flash.h)(0x64AD41B3)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_cache.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/msp_cache.o -MD)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\compile_flag.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_cpu_type.h)(0x64AD41B2)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_can.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/msp_can.o -MD)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_can.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_can_type.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\api\hal_can.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_cpu_type.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sys_stat.h)(0x64AD41B2)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_comp.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/msp_comp.o -MD)
-I (..\..\..\..\..\..\hal_driver\api\hal_comp.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_comp.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_comp_type.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_v33_rg_type.h)(0x64AD41B2)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_crc.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/msp_crc.o -MD)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_cpu_type.h)(0x64AD41B2)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\compile_flag.h)(0x64AD41B4)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_crypt.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/msp_crypt.o -MD)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_crypt.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_crypt_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_cpu_type.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\api\hal_crypt.h)(0x64AD41B3)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sys_stat.h)(0x64AD41B2)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_dac.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/msp_dac.o -MD)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_dac.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_dac_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_per_type.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\api\hal_dac.h)(0x64AD41B3)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\dmac_config.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_dmacv2.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_dmacv2_type.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_v33_rg_type.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\api\hal_flash.h)(0x64AD41B3)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_dmacv2.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/msp_dmacv2.o -MD)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_cpu_type.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sys_stat.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\api\hal_dmacv2.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_dmacv2.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_dmacv2_type.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_ecc.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/msp_ecc.o -MD)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\api\hal_ecc.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_ecc.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_ecc_type.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_cpu_type.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sys_stat.h)(0x64AD41B2)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_i2c.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/msp_i2c.o -MD)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_i2c.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_i2c_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_per_type.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sys_stat.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\api\hal_i2c.h)(0x64AD41B3)
-I (..\..\..\..\..\..\hal_driver\api\ll_i2c.h)(0x64AD41B3)
-I (..\..\..\..\..\..\hal_driver\inc\i2c_misc.h)(0x64AD41B3)
-I (..\..\..\..\..\..\module\debug\log.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\dmac_config.h)(0x64AD41B4)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_iwdg.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/msp_iwdg.o -MD)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_iwdg.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_iwdgv2_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_v33_rg_type.h)(0x64AD41B2)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_pdm.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/msp_pdm.o -MD)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_pdm.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_pdm_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_per_type.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sys_stat.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\dmac_config.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\api\hal_pdm.h)(0x64AD41B3)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_pis.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/msp_pis.o -MD)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_pis.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_pis_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\pis_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_per_type.h)(0x64AD41B2)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_qspiv2.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/msp_qspiv2.o -MD)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_qspiv2.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\qspiv2_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\inc\reg_qspiv2_type.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_cpu_type.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\compile_flag.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_rtc.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/msp_rtc.o -MD)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_rtc.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_rtcv2_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\hal_driver\api\hal_rtcv2.h)(0x64AD41B3)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_v33_rg_type.h)(0x64AD41B2)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_sha.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/msp_sha.o -MD)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_sha.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_sha_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_cpu_type.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sys_stat.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\api\hal_sha.h)(0x64AD41B3)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\compile_flag.h)(0x64AD41B4)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_sm4.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/msp_sm4.o -MD)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_sm4.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_sm4_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_cpu_type.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\api\hal_sm4.h)(0x64AD41B3)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sys_stat.h)(0x64AD41B2)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_spi_i2s.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/msp_spi_i2s.o -MD)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_spi_i2s.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_spi_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\hal_driver\api\hal_spi_i2s.h)(0x64AD41B3)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sys_stat.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_per_type.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\dmac_config.h)(0x64AD41B4)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_ssi.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/msp_ssi.o -MD)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_ssi.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_ssi_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sys_stat.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_per_type.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\api\hal_ssi.h)(0x64AD41B3)
-I (..\..\..\..\..\..\hal_driver\api\ll_ssi.h)(0x64AD41B3)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\hal_driver\inc\ssi_misc.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\dmac_config.h)(0x64AD41B4)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_timer.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/msp_timer.o -MD)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_timer.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_timer_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\hal_timer.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sys_stat.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_per_type.h)(0x64AD41B2)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_touchkey.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/msp_touchkey.o -MD)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_touchkey.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_touchkey_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_per_type.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\api\hal_touchkey.h)(0x64AD41B3)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sys_stat.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_v33_rg_type.h)(0x64AD41B2)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_trngv2.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/msp_trngv2.o -MD)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_trngv2.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_trngv2_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sys_stat.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_cpu_type.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_per_type.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\api\hal_trng.h)(0x64AD41B3)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_uart.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/msp_uart.o -MD)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_uart.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_uart_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\hal_driver\api\hal_uart.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\hal_driver\api\HAL_def.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\api\ll_uart.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sys_stat.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\dmac_config.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_per_type.h)(0x64AD41B2)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_wwdg.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/msp_wwdg.o -MD)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_wwdg.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_wwdg_type.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_per_type.h)(0x64AD41B2)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/platform.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\module\common\sw_timer.h)(0x64AD41B1)
-I (..\..\..\..\..\..\module\common\circular_doubly_linked_list.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sw_timer_port.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\soc_gpio.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\soc_pinmux.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\api\hal_flash.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\compile_flag.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_v33_rg_type.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sleep.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\systick.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_qspiv2.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\qspiv2_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\inc\reg_qspiv2_type.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\module\debug\log.h)(0x64AD41B4)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\rom_flash_api_wrapper.c)(0x64AD41B2)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/rom_flash_api_wrapper.o -MD)
-I (..\..\..\..\..\..\hal_driver\inc\hal_flash_int.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\api\hal_flash.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\cpu.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\compile_flag.h)(0x64AD41B4)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sleep.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/sleep.o -MD)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_v33_rg_type.h)(0x64AD41B2)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\api\hal_flash.h)(0x64AD41B3)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\soc\compile_flag.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_cpu_type.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sleep.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\soc_gpio.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\soc_pinmux.h)(0x64AD41B4)
-I (..\..\..\..\..\..\module\common\common.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\..\..\..\..\..\soc\systick.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sys_stat.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\cpu.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_qspiv2.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\qspiv2_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\hal_driver\inc\reg_qspiv2_type.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_base_addr.h)(0x64AD41B4)
-I (..\..\..\..\..\..\module\debug\log.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\api\hal_cache.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\msp_cache.h)(0x64AD41B4)
-I (..\..\..\..\..\..\hal_driver\inc\reg_cache_type.h)(0x64AD41B3)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\compiler\armcc\sleep_asm.S)(0x64AD41B2)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-mlittle-endian -gdwarf-4 -D__MICROLIB -DSCCC9XX-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION=538 -Dsccc9xx-o ./uvbuild/sleep_asm.o)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\soc_gpio.c)(0x64AD41B4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/soc_gpio.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\soc_gpio.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\soc_pinmux.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\per_func_mux.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_v33_rg_type.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_per_type.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_exti_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\compile_flag.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_cpu_type.h)(0x64AD41B2)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\compiler\armcc\startup.c)(0x64AD41B2)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/startup.o -MD)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\compiler\armcc\startup_asm.S)(0x64AD41B2)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-mlittle-endian -gdwarf-4 -D__MICROLIB -DSCCC9XX-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION=538 -Dsccc9xx-o ./uvbuild/startup_asm.o)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sw_timer_port.c)(0x64AD41B2)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/sw_timer_port.o -MD)
-I (..\..\..\..\..\..\module\common\sw_timer_int.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\module\common\sw_timer.h)(0x64AD41B1)
-I (..\..\..\..\..\..\module\common\circular_doubly_linked_list.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sw_timer_port.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_lstim_type.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_v33_rg_type.h)(0x64AD41B2)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\compiler\armcc\swint_asm.S)(0x64AD41B2)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-mlittle-endian -gdwarf-4 -D__MICROLIB -DSCCC9XX-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION=538 -Dsccc9xx-o ./uvbuild/swint_asm.o)
-F (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sys_stat.c)(0x64AD41B2)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/sys_stat.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sys_stat.h)(0x64AD41B2)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
-F (..\..\..\..\..\..\soc\arm_cm\systick.c)(0x64AD41B1)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O2 -ffunction-sections -I ../.. -I ../../../../../../hal_driver/inc -I ../../../../../../hal_driver/api -I ../../../../../../module/common -I ../../../../../../module/debug -I ../../../../../../module/debug/RTT -I ../../../../../../soc -I ../../../../../../soc/arm_cm -I ../../../../../../soc/arm_cm/cmsis -I ../../../../../../soc/arm_cm/sccc9xx-IC:/Users/Administrator/AppData/Local/Arm/Packs/Sgchip.sccc9xx/DFP/1.0.0/Device/ARM/ARMCM4/Include-D__UVISION_VERSION="538" -Dsccc9xx -DSCCC9XX-o ./uvbuild/systick.o -MD)
-I (..\..\..\..\..\..\soc\systick.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
-I (..\..\..\..\..\..\soc\sdk_config.h)(0x64AD41B1)
-I (..\..\app_config.h)(0x64AD41B3)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sdk_default_config.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\compile_flag.h)(0x64AD41B4)
-I (..\..\..\..\..\..\module\common\common.h)(0x64AD41B1)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\platform.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\sccc9xx.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\core_cm4.h)(0x64AD41B2)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_version.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_compiler.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\cmsis_armclang.h)(0x64AD41B1)
-I (..\..\..\..\..\..\soc\arm_cm\cmsis\mpu_armv7.h)(0x64AD41B2)
-I (..\..\..\..\..\..\module\debug\dbg.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\arm_cm\sccc9xx\reg_sysc_awo_type.h)(0x64AD41B4)
-I (..\..\..\..\..\..\soc\field_manipulate.h)(0x64AD41B1)
